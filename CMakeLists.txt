@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(torrentCLI VERSION 0.1.0)
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+include(CTest)
+enable_testing()
+
+add_executable(torrentCLI main.cpp)
+target_link_libraries(torrentCLI torrent-rasterbar)
+target_link_libraries(torrentCLI ${CMAKE_THREAD_LIBS_INIT})
+include_directories(progressbar-2.1/include)
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

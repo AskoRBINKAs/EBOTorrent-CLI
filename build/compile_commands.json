@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ebobalik/Projects/TorrentCLI/build",
+  "command": "/usr/bin/g++  -I/home/ebobalik/Projects/TorrentCLI/progressbar-2.1/include -g -std=gnu++14 -o CMakeFiles/torrentCLI.dir/main.cpp.o -c /home/ebobalik/Projects/TorrentCLI/main.cpp",
+  "file": "/home/ebobalik/Projects/TorrentCLI/main.cpp"
+}
+]

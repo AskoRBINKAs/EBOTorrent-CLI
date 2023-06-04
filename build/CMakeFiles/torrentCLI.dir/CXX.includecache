@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../progressbar-2.1/include/progressbar.hpp
+iostream
+-
+string
+-
+stdexcept
+-
+
+/home/ebobalik/Projects/TorrentCLI/main.cpp
+iostream
+-
+libtorrent/session.hpp
+-
+libtorrent/bencode.hpp
+-
+libtorrent/add_torrent_params.hpp
+-
+libtorrent/torrent_handle.hpp
+-
+libtorrent/torrent_info.hpp
+-
+libtorrent/torrent_status.hpp
+-
+progressbar.hpp
+-
+vector
+-
+
